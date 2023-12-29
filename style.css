@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+body {
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.main-div {
+    padding-top: 50px;
+    background-color: #059669;
+    color: #F3F4F6;
+    font-size: 35px;
+    font-weight: bold;
+    height: 200px;
+
+}
+
+/* .main-div p {
+    border-bottom: 2px solid #1F2937;
+
+
+} */
+
+p {
+    font-weight: bold;
+}
+
+#input-el {
+    font-size: larger;
+    margin-top: 40px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: #059669;
+    border: 2px solid #1F2937;
+}
+
+button {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+
+    padding: 8px 10px;
+    background-color: #10B981;
+    color: #F3F4F6;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    box-shadow: 1px 1px 3px #F3F4F6;
+}
+
+button:hover {
+    background-color: #F3F4F6;
+    color: #10B981;
+}
+
+.cards-el {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.cards-el p {
+    margin-top: 11px;
+}
+
+.card1,
+.card2,
+.card3 {
+
+    margin-top: 18px;
+    width: 400px;
+    height: 70px;
+    border: none;
+    border-radius: 4px;
+    background-color: #10B981;
+    color: #F3F4F6;
+    box-shadow: 1px 1px 2px #F3F4F6;
+}
